@@ -17,5 +17,4 @@ export class LoginFormComponent {
     email: ["", Validators.required], // Campo 'email' com validação obrigatória
     senha: ["", Validators.required], // Campo 'senha' com validação obrigatória
   });
-
 }
