@@ -1,0 +1,10 @@
+<!-- Campo de texto para entrada -->
+<input
+  type="text"
+  (keyup)="textTyped($event)"
+  [(ngModel)]="currentItem"
+  placeholder={{placeholder}}
+/>
+
+<!-- Botão que envia o texto -->
+<button (click)="textSended()">add</button>

@@ -1,0 +1,11 @@
+<form [formGroup]="login"> <!-- Associa o formulário ao FormGroup chamado 'login' -->
+
+  <!-- Campo para Email -->
+  <p>Email</p>
+  <input type="text" [formControl]="login.controls.email"> <!-- Vinculado ao controle 'nome' -->
+
+  <!-- Campo para Senha -->
+  <p>Senha</p>
+  <input type="text" [formControl]="login.controls.senha"> <!-- Vinculado ao controle 'senha' -->
+
+</form>
